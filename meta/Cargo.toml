@@ -8,6 +8,9 @@ description = "Tools to set HTML metadata in the Leptos web framework."
 rust-version.workspace = true
 edition.workspace = true
 
+[lib]
+crate-type = ["dylib"]
+
 [dependencies]
 leptos = { workspace = true }
 or_poisoned = { workspace = true }

@@ -10,6 +10,9 @@ readme = "../README.md"
 rust-version.workspace = true
 edition.workspace = true
 
+[lib]
+crate-type = ["dylib"]
+
 [dependencies]
 throw_error = { workspace = true }
 any_spawner = { workspace = true, features = [

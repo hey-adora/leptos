@@ -9,6 +9,9 @@ description = "Router for the Leptos web framework."
 rust-version.workspace = true
 edition.workspace = true
 
+[lib]
+crate-type = ["dylib"]
+
 [dependencies]
 leptos = { workspace = true }
 leptos_router_macro = { workspace = true }
