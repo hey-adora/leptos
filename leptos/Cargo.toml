@@ -1,6 +1,6 @@
 [package]
 name = "leptos"
-version = "0.8.16"
+version = "0.8.17"
 authors = ["Greg Johnston"]
 license = "MIT"
 repository = "https://github.com/leptos-rs/leptos"
@@ -176,8 +176,6 @@ skip_feature_sets = [
   ["miniserde", "rkyv"],
   ["serde-lite", "rkyv"],
   ["default-tls", "rustls"],
-  # do not test against nightly feature alone
-  ["nightly"],
 ]
 max_combination_size = 2
 
